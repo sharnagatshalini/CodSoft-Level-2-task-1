@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Board</title>
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <header>
+    <h1>💼 Job Board</h1>
+  </header>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search job title...">
+  </div>
+
+  <div class="job-listings" id="jobList">
+    <div class="job-card">
+      <div class="job-title">Web Developer</div>
+      <div class="company">Code Solutions</div>
+      <div class="location">Remote</div>
+      <button class="apply-btn" onclick="applyJob('Web Developer')">Apply</button>
+    </div>
+
+    <div class="job-card">
+      <div class="job-title">UI/UX Designer</div>
+      <div class="company">Creative Minds</div>
+      <div class="location">Mumbai</div>
+      <button class="apply-btn" onclick="applyJob('UI/UX Designer')">Apply</button>
+    </div>
+
+    <div class="job-card">
+      <div class="job-title">JavaScript Developer</div>
+      <div class="company">TechieLoop</div>
+      <div class="location">Pune</div>
+      <button class="apply-btn" onclick="applyJob('JavaScript Developer')">Apply</button>
+    </div>
+
+    <div class="job-card">
+      <div class="job-title">Data Analyst</div>
+      <div class="company">TCS</div>
+      <div class="location">Pune</div>
+      <button  class="apply-btn" onclick="applyJob('Data Analyst')">Apply</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  </body>
+  </html>
